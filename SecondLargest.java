@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package secondlargest;
+
 
 /**
  *
@@ -32,9 +32,9 @@ static int findSecondLargest(int[] arr)
 {
 int max=Integer.MIN_VALUE;
 int secondLargest=Integer.MIN_VALUE;
-System.out.println(max);
-System.out.println(secondLargest);
-System.out.println(arr.length);
+System.out.println("Interger.MIN_VALUE in max:"+max);
+System.out.println("Interger.MIN_VALUE in secondlargest:"+secondLargest);
+System.out.println("Length of the array:"+arr.length);
 for(int i=0;i<arr.length;i++)
 {
 if(max<arr[i])
